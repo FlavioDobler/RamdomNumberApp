@@ -106,7 +106,7 @@ class ViewController: UIViewController {
     
     @objc  func generateButtom(sender: UIButton) {
         var randomInt = Int.random(in: 0..<9)
-        randomInt = randomNumber
+        randomNumber = randomInt
         print(randomInt)
         let userInput = numberTextField.text
         self.animateButtom(sender)
